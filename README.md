@@ -26,19 +26,54 @@ System Diagram<br/>
 
 <h2>Program walk-through:</h2>
 
+<h4>DC (SERVER 2019)</h4>
+
+- External Network: DHCP.<br/>
+- Internal Network: A static IP address (172.16.0.1).
 <p align="center">
 DC Network Interfaces <br/>
-<img src="https://cdn-images-1.medium.com/max/800/1*-QeMGCAE8CgiqbpuyCaImA.png
-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://github.com/user-attachments/assets/db47a123-2fe6-421c-8ca7-15474b5fdafa" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
+<br/>
+
+- Active Directory Domain Services (AD DS)
+<br/>
+<p align="center">
+Install Active directory domain service <br/>
+
+<img src="https://github.com/user-attachments/assets/a2d88215-c5dd-4bb6-8b23-d4d278612fcd" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
+
+- Promote the Server to Domain Controller
+  
+<p align="center">
+Add domain name <br/>
+<img src="https://github.com/user-attachments/assets/cd2527f5-064b-47bb-94dd-d17d4377619e" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- RAS/NAT for Internet Access
+  
+<p align="center">
+Add Remote Access <br/>
+<img src="https://github.com/user-attachments/assets/69477bed-d082-4ee3-9dfe-d4a858c6685f" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
+<br/>
+
+<p align="center">
+Add Routing <br/>
+<img src="https://github.com/user-attachments/assets/a22def78-efe5-49a4-b6e9-02772d333b2a" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
+
+<p align="center">
+Enable Routing and Remote Access <br/>
+<img src="https://github.com/user-attachments/assets/96818269-f441-4a16-b601-dbc87105fa1b" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p align="center">
+Network Address Translation (NAT) <br/>
+<img src="https://github.com/user-attachments/assets/63efc74b-dd09-46a6-bcb5-74612f1ccc7e" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
+
+ 
 <br />
 Confirm your selection:  <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>

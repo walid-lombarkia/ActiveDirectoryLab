@@ -10,7 +10,7 @@ The implementation of an Active Directory Domain Services (AD DS) setup using Wi
 
 <p align="center">
 System Diagram<br/>
-<img src="https://github.com/user-attachments/assets/e3b5c301-2f46-4e56-9443-c04de60d264d" height="80%" width="80%" alt="System Diagram"/>
+<img src="https://github.com/user-attachments/assets/e3b5c301-2f46-4e56-9443-c04de60d264d" height="60%" width="60%" alt="System Diagram"/>
 <br />
 
 
@@ -41,55 +41,62 @@ DC Network Interfaces <br/>
 <p align="center">
 Install Active directory domain service <br/>
 
-<img src="https://github.com/user-attachments/assets/a2d88215-c5dd-4bb6-8b23-d4d278612fcd" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
+<img src="https://github.com/user-attachments/assets/a2d88215-c5dd-4bb6-8b23-d4d278612fcd" height="60%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
 
 - Promote the Server to Domain Controller
   
 <p align="center">
 Add domain name <br/>
-<img src="https://github.com/user-attachments/assets/cd2527f5-064b-47bb-94dd-d17d4377619e" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
+<img src="https://github.com/user-attachments/assets/cd2527f5-064b-47bb-94dd-d17d4377619e" height="60%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
 
 - RAS/NAT for Internet Access
   
 <p align="center">
 Add Remote Access <br/>
-<img src="https://github.com/user-attachments/assets/69477bed-d082-4ee3-9dfe-d4a858c6685f" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
+<img src="https://github.com/user-attachments/assets/69477bed-d082-4ee3-9dfe-d4a858c6685f" height="60%" width="60%" alt="Disk Sanitization Steps" title="Network"/>
 <br/>
 
 <p align="center">
 Add Routing <br/>
-<img src="https://github.com/user-attachments/assets/a22def78-efe5-49a4-b6e9-02772d333b2a" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
+<img src="https://github.com/user-attachments/assets/a22def78-efe5-49a4-b6e9-02772d333b2a" height="60%" width="60%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
 
 <p align="center">
 Enable Routing and Remote Access <br/>
-<img src="https://github.com/user-attachments/assets/96818269-f441-4a16-b601-dbc87105fa1b" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
+<img src="https://github.com/user-attachments/assets/96818269-f441-4a16-b601-dbc87105fa1b" height="60%" width="60%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
 
 <p align="center">
 Network Address Translation (NAT) <br/>
-<img src="https://github.com/user-attachments/assets/63efc74b-dd09-46a6-bcb5-74612f1ccc7e" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
+<img src="https://github.com/user-attachments/assets/63efc74b-dd09-46a6-bcb5-74612f1ccc7e" height="60%" width="60%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
 
- 
+- Configure DHCP
+
+<p align="center">
+DHCP Scope <br/>
+<img src="https://github.com/user-attachments/assets/2cbc5aa5-0617-46e0-8a61-9d93428db370" height="60%" width="60%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+- Script to generate 1k Users automatically
+<p align="center">
+Powershell script to create Users automatically <br/>
+<img src="https://github.com/user-attachments/assets/c61cb100-f2e0-4be1-85b3-3b21926c9926" height="80%" width="80%" alt="Disk Sanitization Steps" title="Network"/>
 <br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
+
+
+
+
+
+
+
+
+
+
+ <h4>Client1(Windows 11) </h4>
 
 <!--
  ```diff

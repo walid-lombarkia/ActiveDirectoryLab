@@ -90,7 +90,7 @@ Powershell script to create Users automatically <br/>
 - Joing the same domain as DC
 
 <p align="center">
-Powershell script to create Users automatically <br/>
+Join the Client to the Domain <br/>
 <img src="https://github.com/user-attachments/assets/2bb119f4-eec5-4129-b8b9-1a75cb9ddaf8" height="80%" width="80%" alt="Disk Sanitization Steps" />
 <br />
  
